@@ -27,7 +27,8 @@ import vitejs from "./tech/vitejs.svg";
 import laravel from "./tech/laravel.svg";
 import php from "./tech/php.svg";
 
-import azzam from "./friend/azzam.png";
+import azzam from "./friends/azzam.png";
+import zein from "./friends/zein.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -83,6 +84,7 @@ export {
   laravel,
   php,
   azzam,
+  zein,
   meta,
   shopify,
   starbucks,

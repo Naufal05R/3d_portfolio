@@ -37,6 +37,7 @@ import {
   todolist,
   laravel,
   php,
+  zein,
 } from "../assets";
 
 export const navLinks = [
@@ -191,26 +192,26 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but NR proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/men/4.jpg",
+      "It's a pleasure to work with you. Also enthusiasm and stay active in coding websites or Android.",
+    name: "Rafli Zein",
+    designation: "Friend & Partner",
+    company: "IDN Solo",
+    image: zein,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like NR does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "This portfolio website is very beautiful because of the 3D Design. The display looks very nice.",
+    name: "Azzam Firdaus",
+    designation: "Friend",
+    company: "IDN Solo",
+    image: azzam,
   },
   {
     testimonial:
       "After NR optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+    name: "Ayyub Iqbal",
+    designation: "Friend & Partner",
+    company: "IDN Solo",
     image: "https://randomuser.me/api/portraits/men/6.jpg",
   },
 ];
