@@ -58,7 +58,7 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        As a Fron-End Developer, I possess a diverse skill set encompassing front-end development, 3d Design, user interface/experience, and collaborative teamwork. I excel at creating visually appealing user interfaces using HTML, CSS, and JavaScript, and expertise in Frameworks like React.js, Tailwindcss, Three.js, and Framer Motion. With a keen eye for design, I prioritize seamless user experiences and responsive layouts. Overall, I am a proactive learner who stays updated with the latest industry trends, enabling me to deliver high-quality, scalable applications through my holistic understanding of the front-end development process.
+        As a Front-End Developer, I possess a diverse skill set encompassing front-end development, 3d Design, user interface/experience, and collaborative teamwork. I excel at creating visually appealing user interfaces using HTML, CSS, and JavaScript, and expertise in Frameworks like React.js, Tailwindcss, Three.js, and Framer Motion. With a keen eye for design, I prioritize seamless user experiences and responsive layouts. Overall, I am a proactive learner who stays updated with the latest industry trends, enabling me to deliver high-quality, scalable applications through my holistic understanding of the front-end development process.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
