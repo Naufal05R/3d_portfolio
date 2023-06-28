@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React, { Suspense, useEffect, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { Decal, Float, OrbitControls, Preload, useTexture } from '@react-three/drei';
 
@@ -42,6 +42,14 @@ const Ball = (props) => {
 };
 
 const BallCanvas = ({ icon, index }) => {
+  const [randomValue, setRandomValue] = useState(Math.floor(Math.random() * (12 - -12)) + -12);
+
+  useEffect(() => {
+    if (!randomValue) {
+      setRandomValue(Math.floor(Math.random() * (12 - -12)) + -12);
+    }
+  }, []);
+
   return (
     <Canvas
       frameloop='demand'
@@ -51,7 +59,7 @@ const BallCanvas = ({ icon, index }) => {
         <OrbitControls
           enableZoom={false}
           autoRotate
-          autoRotateSpeed={Math.floor(Math.random() * -9) + -index}
+          autoRotateSpeed={randomValue}
         />
         <Ball imgUrl={icon} />
       </Suspense>

@@ -38,6 +38,7 @@ import {
   laravel,
   php,
   zein,
+  salman,
 } from "../assets";
 
 export const navLinks = [
@@ -208,11 +209,11 @@ const testimonials = [
   },
   {
     testimonial:
-      "After NR optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Ayyub Iqbal",
-    designation: "Friend & Partner",
+      "Pengen belajar React JS bang.",
+    name: "Salman Salim",
+    designation: "Friend",
     company: "IDN Solo",
-    image: "https://randomuser.me/api/portraits/men/6.jpg",
+    image: salman,
   },
 ];
 

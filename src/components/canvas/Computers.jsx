@@ -35,6 +35,7 @@ const Computers = ({ isMobile, isTablet }) => {
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
   const [isTablet, setIsTablet] = useState(false);
+  const [randomValue, setRandomValue] = useState(Math.floor(Math.random() * (15 - -15)) + -15);
 
   useEffect(() => {
     const mediaQueryMobile = window.matchMedia('(max-width: 425px)');
@@ -49,6 +50,8 @@ const ComputersCanvas = () => {
     const handleMediaQueryTabletChange = (event) => {
       setIsTablet(event.matches);
     };
+
+    randomValue === 0 && setRandomValue(Math.floor(Math.random() * 10) + 1);
 
     mediaQueryMobile.addEventListener('change', handleMediaQueryMobileChange);
     mediaQueryTablet.addEventListener('change', handleMediaQueryTabletChange);
@@ -69,7 +72,7 @@ const ComputersCanvas = () => {
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
           autoRotate
-          autoRotateSpeed={-12}
+          autoRotateSpeed={randomValue}
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
