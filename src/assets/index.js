@@ -30,6 +30,7 @@ import php from "./tech/php.svg";
 import azzam from "./friends/azzam.png";
 import zein from "./friends/zein.png";
 import salman from "./friends/salman.png";
+import fardan from "./friends/fardan.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -87,6 +88,7 @@ export {
   azzam,
   zein,
   salman,
+  fardan,
   meta,
   shopify,
   starbucks,

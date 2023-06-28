@@ -39,6 +39,7 @@ import {
   php,
   zein,
   salman,
+  fardan,
 } from "../assets";
 
 export const navLinks = [
@@ -201,11 +202,19 @@ const testimonials = [
   },
   {
     testimonial:
-      "This portfolio website is very beautiful because of the 3D Design. The display looks very nice.",
+    "This portfolio website is very beautiful because of the 3D Design. The display looks very nice.",
     name: "Azzam Firdaus",
     designation: "Friend",
     company: "IDN Solo",
     image: azzam,
+  },
+  {
+    testimonial:
+      "Terima kasih sudah menjadi partner yang baik, kerja keras dan komitmen adalah kata yang dapat menggambarkanmu. Semoga kamu dapat terus berkembang dan menjadi salah satu programmer expert.",
+    name: "Fardan Hafidz",
+    designation: "Friend & Partner",
+    company: "IDN Solo",
+    image: fardan,
   },
   {
     testimonial:
