@@ -194,6 +194,14 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
+      "Terima kasih sudah menjadi partner yang baik, kerja keras dan komitmen adalah kata yang dapat menggambarkanmu. Semoga kamu dapat terus berkembang dan menjadi salah satu programmer expert.",
+    name: "Fardan Hafidz",
+    designation: "Friend & Partner",
+    company: "IDN Solo",
+    image: fardan,
+  },
+  {
+    testimonial:
       "It's a pleasure to work with you. Also enthusiasm and stay active in coding websites or Android.",
     name: "Rafli Zein",
     designation: "Friend & Partner",
@@ -207,14 +215,6 @@ const testimonials = [
     designation: "Friend",
     company: "IDN Solo",
     image: azzam,
-  },
-  {
-    testimonial:
-      "Terima kasih sudah menjadi partner yang baik, kerja keras dan komitmen adalah kata yang dapat menggambarkanmu. Semoga kamu dapat terus berkembang dan menjadi salah satu programmer expert.",
-    name: "Fardan Hafidz",
-    designation: "Friend & Partner",
-    company: "IDN Solo",
-    image: fardan,
   },
   {
     testimonial:
